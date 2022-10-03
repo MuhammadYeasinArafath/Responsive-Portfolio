@@ -1,0 +1,32 @@
+.Footer{
+    padding: 0 7%;
+    padding-top: 2rem;
+    margin: 0;
+    max-width: 100%;
+    color:white;
+    background-color: black;
+    background-size: cover;
+    height: 75vh;
+}
+.designf{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.note{
+    margin-top: 5rem;
+}
+/*Media Quries (Medium Device)*/
+@media screen and (max-width:1024px) {
+    .note{
+        text-align: center;
+        margin-bottom: 25rem;
+    }
+}
+/*Media Quries (Small Device)*/
+@media screen and (max-width:600px) {
+    .note{
+        text-align: center;
+        margin-bottom: 25rem;  
+    }
+}
+
